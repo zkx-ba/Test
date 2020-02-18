@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<com.laozizuishuai.myp2pview.RoundProgress-->
+    <!--android:layout_width="120dp"-->
+    <!--android:layout_height="120dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--app:roundColor="@android:color/darker_gray"-->
+    <!--app:roundProgreColor="@android:color/holo_red_dark"-->
+    <!--app:roundwidth="10dp"-->
+    <!--app:textColor="#18b4ed"-->
+    <!--app:textSize="20sp" />-->
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ceshi" />
+
+
+    <com.laozizuishuai.myp2pview.MyScrollview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="首页"
+                android:visibility="invisible"
+                android:textColor="#f50707"
+                android:textSize="40sp" />
+
+
+
+            <com.laozizuishuai.myp2pview.RoundProgress
+                android:id="@+id/qwqwqwq"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                app:roundColor="@android:color/darker_gray"
+                app:roundProgreColor="@android:color/holo_red_dark"
+                app:roundwidth="10dp"
+                app:textColor="#18b4ed"
+                app:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+
+    </com.laozizuishuai.myp2pview.MyScrollview>
+</LinearLayout>
